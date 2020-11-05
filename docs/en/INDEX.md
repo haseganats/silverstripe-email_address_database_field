@@ -28,6 +28,9 @@ Adding a tab to the CMS page where emails can be added in a GridField.
 ## Definition of the classes
 
 ```php
+    
+    use SilverStripe\Forms\EmailField;
+    
     class Page extends SiteTree
     {
 
